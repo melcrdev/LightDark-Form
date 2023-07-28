@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Light-Dark Form</title>
+</head>
+
+<body>
+  <main class="main__container">
+    <div class="img__container">
+      <img src="./assets/img/img_light-theme.svg" alt="developer mobile" class="img-principal" />
+    </div>
+
+    <div class="submit__container">
+      <div class="title__container">
+        <h1 id="title">Hello!</h1>
+        <i class="fa-solid fa-moon" id="theme"></i>
+      </div>
+
+      <div class="subtitle__container">
+        <h2 id="subtitle">
+          Use your email or another service to continue with <strong id="details_subtitle">Mobile Developer.</strong>
+        </h2>
+      </div>
+
+      <div class="social__container">
+
+        <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank">
+          <img src="assets/img/Gmail.png" alt="gmail icon" class="social_icon" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/melsaraiva306/" target="_blank">
+          <img src="assets/img/Linkedin.png" alt="linkedin icon" class="social_icon" />
+        </a>
+
+        <a href="https://github.com/melcrdev" target="_blank">
+          <img src="assets/img/GitHub.png" alt="github icon" class="social_icon" />
+        </a>
+      </div>
+
+      <form class="form__container">
+        <div class="email__password">
+          <label for="email">
+            Email:
+            <div class="input__label">
+              <i class="fa-solid fa-user" id="form-icon"></i>
+              <input type="email" name="email" id="email" class="input-style" />
+            </div>
+          </label>
+
+          <label for="password">
+            Password:
+            <div class="input__label">
+              <i class="fa-solid fa-key" id="form-icon"></i>
+              <input type="password" name="password" id="password" class="input-style" />
+            </div>
+          </label>
+        </div>
+
+        <div class="button">
+          <button id="submit-button">Submit</button>
+        </div>
+
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
